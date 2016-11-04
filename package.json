@@ -1,38 +1,15 @@
 {
-  "name": "node-xcs",
+  "name": "node-fcm-server",
   "version": "0.1.4",
-  "description": "NodeJS implementation of Google's XMPP Connection Server",
+  "description": "Implementation of Google's FCM App Server",
+  "private": true,
   "main": "index.js",
-  "author": "guness",
-  "keywords": [
-    "fcm",
-    "firebase",
-    "gcm",
-    "xmpp",
-    "ccs",
-    "xcs",
-    "c2dm",
-    "upstream",
-    "downstream",
-    "nodejs",
-    "message",
-    "notification",
-    "google"
-  ],
   "license": "BSD-3-Clause",
-  "homepage": "https://github.com/guness/node-xcs",
-  "bugs": {
-    "url": "https://github.com/guness/node-xcs/issues"
-  },
   "dependencies": {
     "node-xmpp-client": "^3.0.2"
   },
   "devDependencies": {
     "mocha": "^3.0.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/guness/node-xcs.git"
   },
   "scripts": {
     "test": "mocha"
